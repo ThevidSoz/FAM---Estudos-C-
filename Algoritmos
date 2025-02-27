@@ -3,10 +3,10 @@
 
 main()
 {
-	int num, quad; // Define as variaveis
+	int num, quad; // Definição de váriáveis
 	
-	printf("Digite um valor inteiro: "); // Solicite um numero
-	scanf("%d, &num"); // Recebe o numero
+	printf("Digite um valor inteiro: "); // Mensagem na tela
+	scanf("%d, &num"); // Recebe um número
 	quad = num * num; // Faz o calculo
 	
 	printf("O quadrado de %d = %d\n", num, quad); // exibe o resultado concatenado

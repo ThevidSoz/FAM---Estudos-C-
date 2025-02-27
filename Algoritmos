@@ -1,0 +1,15 @@
+#include <studio.h>
+#include <conio.h>
+
+main()
+{
+	int num, quad; // Define as variaveis
+	
+	printf("Digite um valor inteiro: "); // Solicite um numero
+	scanf("%d, &num"); // Recebe o numero
+	quad = num * num; // Faz o calculo
+	
+	printf("O quadrado de %d = %d\n", num, quad); // exibe o resultado concatenado
+	printf("Pressione qualquer tecla para finalizar: "); // Mensagem na tela
+	getch(); // Aguarda pressionar uma tecla
+}
